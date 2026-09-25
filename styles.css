@@ -1,0 +1,112 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(38, 38, 146);
+    padding: 15px 40px;
+    justify-content: space-between;
+}
+body{
+    margin: 0%;
+    font-family: cursive;
+}
+
+
+.logo{
+    color: white;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.links a{
+    color: white;
+}
+
+.links a:hover{
+    color: aqua;
+}
+
+.img{
+    border-radius: 25%;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,255,1);
+}
+
+.footer{
+    background-color: rgb(38, 38, 146);;
+    color: white;
+    text-align: center;
+    padding: 1px 0px;
+    font-size: large;
+}
+
+.hero p{
+    color: rgb(60, 22, 212);
+    font-size: 20px;
+    margin: 0%;
+
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.contact{
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.socials{
+    display: flex;
+    gap: 20px;
+}
+.socials a{
+    color:  rgb(36, 119, 171);
+    text-decoration: none;
+}
+.socials a:hover{
+    color: rgb(185, 22, 22);
+}
+
+#square-animation{
+    width: 10px;
+    height: 10px;
+    background: #1cdb75;
+    border-radius: 5px;
+}
+/*body{
+    background-image: url(./download\ \(2\).jpg) ;
+    color: white;
+}*/
+
+.page-container {
+  display: flex;        
+  align-items: center;  
+  gap: 10px;    
+  padding: 0 0;        
+}
+.page-left, .page-right {
+  flex: 1;               /* Makes both sides take up equal width */
+  padding: 20px;
+}
+.page-look{
+  max-width: 900px;       
+  margin: 0 auto;        
+  padding: 40px;         
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+.me{
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0px;
+}
